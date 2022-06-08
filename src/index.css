@@ -1,0 +1,71 @@
+/* Global */
+
+html {
+  font-family: 'Lato', sans-serif;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit
+}
+
+body {
+  margin: 0 200px 0 200px;
+  padding: 0;
+  line-height: 1.4;
+  color: #636f7d;
+}
+
+
+
+.container {
+  margin: 0 auto;
+  padding: 0 0.8rem;
+}
+
+@media screen and (min-width: 700px) {
+  .container {
+    width: 660px;
+    padding: 0;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .container {
+    width: 960px;
+  }
+}
+
+/* Header */
+
+header {
+  padding: 1.2rem 0 1.2rem;
+  background-color: #fff;
+  text-align: center;
+}
+
+.header {
+  margin: 1rem 0 0 0
+}
+
+.header h1 {
+  margin-bottom: 0.5rem
+}
+
+.logo {
+  width: 6rem;
+}
+
+@media screen and (min-width: 700px) {
+  .logo {
+    width: 8.5rem;
+  }
+}
+
+/* Footer */
+
+footer {
+  font-size: .875rem;
+  border-top: 1px solid #d7dee2;
+  padding: 1.5rem 0 2rem;
+}
